@@ -15,6 +15,8 @@ function Navbar() {
       <div className={styles.navContainer}>
         <nav>
             <li>HOME PAGE</li>
+
+            
             <li>ABOUT US</li>
             <li>PRODUCTS</li>
             <li>SERVICES</li>
