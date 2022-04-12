@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F0F0F0;
+}
+
+.container ul {
+    display: flex;
+    align-items: center;
+}
+
+.container ul li {
+    list-style: none;
+    padding: 0 32px;
+    font-family: Glory;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
