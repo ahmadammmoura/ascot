@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../assets/Logo";
 import Search from "../../assets/Search";
 import styles from "./style/navbar.module.css";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -15,7 +16,9 @@ function Navbar() {
           <li>HOME PAGE</li>
           <li>ABOUT US</li>
           <li>PRODUCTS</li>
-          <li>SERVICES</li>
+          <Link href="/services">
+            <li>SERVICES</li>
+          </Link>
           <li>PROJECTS</li>
           <li>BLOGS</li>
           <li>عربي</li>

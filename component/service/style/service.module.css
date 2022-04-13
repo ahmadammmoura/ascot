@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap");
+
+.service {
+  /* background-color: aqua; */
+  height: 900px;
+}
+
+.service .title {
+  background-color: azure;
+}
+
+.service .title h1 {
+  font-family: Glory;
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.styleServices {
+  display: flex;
+}
+
+.oneService {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.patternStle {
+  position: absolute;
+}
+
+.service1Style {
+  position: absolute;
+  border-radius: 50%;
+  background: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.oneService h4 {
+  font-family: Glory;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
