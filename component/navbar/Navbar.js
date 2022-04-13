@@ -16,7 +16,9 @@ function Navbar() {
           <li>HOME PAGE</li>
           <li>ABOUT US</li>
           <li>PRODUCTS</li>
-          <Link href="/services"><li>SERVICES</li></Link>
+          <Link href="/services">
+            <li>SERVICES</li>
+          </Link>
           <li>PROJECTS</li>
           <li>BLOGS</li>
           <li>عربي</li>
