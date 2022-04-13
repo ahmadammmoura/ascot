@@ -9,7 +9,6 @@ function Services() {
     <Navbar />
     <FirstSection />
     <SecondSection />
-
     </>
   )
 }
