@@ -5,10 +5,6 @@
   height: 900px;
 }
 
-.service .title {
-  background-color: azure;
-}
-
 .service .title h1 {
   font-family: Glory;
   font-size: 48px;
@@ -20,18 +16,16 @@
 }
 
 .styleServices {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 10rem 0 10rem;
+  height: 70vh;
 }
 
 .oneService {
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.patternStle {
-  position: absolute;
 }
 
 .service1Style {
@@ -45,10 +39,10 @@
 }
 
 .oneService h4 {
-  font-family: Glory;
+  font-family: "Glory";
   font-size: 26px;
-  font-weight: 600;
+  font-weight: bolder;
   line-height: 29px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
 }

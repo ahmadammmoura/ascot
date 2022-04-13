@@ -11,9 +11,6 @@ function Service() {
             </h1>
         </div>
         <OurService />
-        {/* <div>
-           
-        </div> */}
     </div>
   )
 }
