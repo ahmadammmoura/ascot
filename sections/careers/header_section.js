@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderText from "../../component/careers/header_text/HeaderText";
 import Overlaying_divs from "../../component/careers/overlaying_divs/overlaying_divs";
-import classes from "./styles.module.css";
+import classes from "../careers/styles/styles.module.css";
 const HeaderSection = () => {
   return (
     <div className={classes.headerContainer}>

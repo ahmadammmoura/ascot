@@ -1,12 +1,11 @@
 .headerTitle {
   font-family: "Glory";
+
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
   line-height: 56px;
-
   text-align: start;
-
   color: #1d1d1b;
 }
 .headerDesc {
